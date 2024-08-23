@@ -14,7 +14,7 @@ pipeline
    {
     steps
     {
-     sh 'cat index.html | grep -i healthcare' 
+     sh 'cat index.html | grep -i Hospital' 
     }
    }
   }
