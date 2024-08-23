@@ -7,7 +7,7 @@ pipeline
    {
      steps
      {
-      git branch: 'branch2_dev2', url: 'git@github.com:utpaldey108/multibrunch_example.git'
+      git branch: 'branch2_dev2', url: 'https://github.com/utpaldey108/multibrunch_example.git'
      }
     }
    stage("checkforakeyword")
